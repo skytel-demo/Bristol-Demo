@@ -1,0 +1,69 @@
+.bg-gray{
+    background-color: #ededed;
+}
+
+.bg-primario{
+    background-color: #000066;
+    color: #fff;
+}
+
+.infoTop{
+    color: #000066;
+    padding: .5rem 0;
+
+    a{
+        text-decoration: none;
+        color: #000066;
+    }
+
+    .info{ font-size: 12px;}
+}
+
+.shopping{
+    min-width: 200px;
+    border: none;
+    
+    .list-group-item{
+        border: none;
+        color: #000066;
+        font-size: 1.2rem;
+    }
+
+    .cost{
+        display: flex;
+        align-items: center;
+        span{font-size: .9rem; margin-left: .5rem};
+    }
+}
+
+
+.nav-link{
+    color: #fff;
+}
+
+/* Estilos del botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+    background-color: #000066;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    color: #fff;
+}
+
+.whatsapp-button i {
+    font-size: 2rem;
+}
